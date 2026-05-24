@@ -16,7 +16,7 @@ The prototype demonstrates a cyber-resilient flight control architecture using a
 - `Init_Cyber.mlx`  
   Initialization script for loading parameters and setting up the simulation workspace.
 
-- `FYICyberDashboard_Baseline.m`  
+- `FYICyberDashboard.m`  
   MATLAB dashboard for visualising residuals, attack detection, and RAM response.
 
 - `FYI_DashboardPush.m`  
