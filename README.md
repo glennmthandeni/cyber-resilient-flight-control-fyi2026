@@ -25,8 +25,11 @@ The prototype demonstrates a cyber-resilient flight control architecture using a
 - `FYI_Workspace_Data.mat`  
   Workspace data required to run the simulation.
 
-- `dashboard_ram_activation_demo.gif`  
-  Short visual demonstration of the dashboard response during attack detection and RAM activation.
+- `Prototype_Demo_1_Graph.mp4`  
+  Short demonstration video showing the simplified one-graph consistency residual dashboard.
+
+- `Prototype_Demo_4_Graphs.mp4`  
+  Short demonstration video showing the four-graph dashboard with residual response, altitude channel, pitch channel, and selected physics residuals.
 
 ## How to Run
 
@@ -35,13 +38,27 @@ The prototype demonstrates a cyber-resilient flight control architecture using a
 3. Run `Init_Cyber.mlx`.
 4. Open `FYI_Twin_CyberResilient.slx`.
 5. Run the Simulink model.
-6. Run `FYICyberDashboard_Baseline.m` to view the dashboard.
+6. Run `FYICyberDashboard.m` to view the dashboard.
 
 ## Demonstrated Scenario
 
 The model demonstrates a coordinated cyber manipulation scenario where GPS and air-data signals are corrupted. The digital twin predicts physically plausible aircraft behaviour, while the measured/corrupted states become inconsistent.
 
 The residual monitor detects the inconsistency and activates Resilient Autonomy Mode, which isolates suspect data and maintains bounded safe-flight behaviour.
+
+## Prototype Demonstration Videos
+
+### Four-Graph Dashboard Demonstration
+
+[Watch the four-graph prototype demo](Prototype_Demo_4_Graphs.mp4)
+
+This demonstration shows the dashboard response across multiple views: consistency residual, altitude channel, pitch channel, and selected physics residuals. It provides the clearest view of the full prototype behaviour during attack detection and RAM activation.
+
+### Simplified One-Graph Dashboard Demonstration
+
+[Watch the one-graph prototype demo](Prototype_Demo_1_Graph.mp4)
+
+This demonstration shows the simplified consistency residual view, focusing on the residual spike, attack detection, and RAM response.
 
 ## Prototype Demonstration
 
