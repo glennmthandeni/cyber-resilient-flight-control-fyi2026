@@ -30,6 +30,9 @@ The prototype demonstrates a cyber-resilient flight control architecture using a
 
 - `Prototype_Demo_4_Graphs.mp4`  
   Short demonstration video showing the four-graph dashboard with residual response, altitude channel, pitch channel, and selected physics residuals.
+- `dashboard_ram_activation_demo.gif`  
+  Short visual demonstration of the dashboard response during attack detection and RAM activation.
+
 
 ## How to Run
 
